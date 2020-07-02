@@ -1,0 +1,23 @@
+Dfinity Signature Plugin Project Proposal
+1. Idea
+Dfinity Signature Plugin intends to simplify transaction signing. Dfinity Signature Plugin can be used in App (Android,IOS), WebApp, Linux ,Windows without modification. Dfinity Signature Plugin has two core functions : serialization and signing. Dfinity Signature Plugin  is developed with Rust language and compiled to Web Assembly Format. WebApps can sign transaction by JS gule easily regardless of Wallet. As to Mobile Apps and desktop Apps, App can Invoke functions by browser controler or wasm executor. With Dfinity Signature Plugin, developers of Dfinity can concentrate on application rather than chain operations and take a fish-touching development. 
+Project goals and vision
+The goal of Dfinity Signature Plugin is to build a  cross-platform transaction signature plugin. Developers of Dfinity Apps can sign transactions easily. The product's goals are as follows.
+  •Dfinity Signature tool
+  •Transaction Serialization
+  •Send Transactions
+  •Cross-platform Code 
+  •Simplify Dapp and App Development
+
+AnchorDAO  Introduction
+A. CEO - GuangWu XIE
+Member of the National Engineering Laboratory For Big Data Analysis, and co-founder of the AnchorDAO Risk Control Laboratory (Beijing) with the Viking Research of Viking Capital. He was runner-up in the stable-coin-model of the WuDaoKou Blockchain Club of Tsinghua University, founder of Xi'an Blockchain Technology Application Association. He has organized the launching of the EOS main-net, served as the head of modelling for the PIZZA stable-coin and as the head of research for MORECOIN Research.
+
+B. Development Team
+The team is from the National Engineering Laboratory For Big Data Analysis,, with master's or doctoral degrees from Xi'an Jiaotong University and Beijing University; The development team is from Wuawai and SF, which has serial years of producting in large-scale system dev and Ecosystem dev; Senior experts and scholars in the field of blockchain, big data, and industry experts such as the founder of IBM Hyperledger.
+
+C. Company Architecture
+BlockInsight Team has launched a comprehensive BaaS service and solutions in various fields (www.block-insight.com); In the face of the game industry, a blockchain product included services such as the online legitimate protection and digital management copyright and store saas and second-hand transaction and player community products (www.afkblock.com); Launched contract exchange and exchange system services in the financial sector (www.fvex.global, www.softio.co); Stable currency products and smart contract products for bitcoin (www.usda.one, www.chainx.org) were launched in DeFi.
+
+D. DeFi Solutions
+AnchorDAO ecosystem(usda.one、keeper.one)  is an open financial system through which any user can issue stable coins independently with multiple manipulations, as well as deploy stable coin Ano-Systems, chain-based insurance hedging, bond issuance/trading, and stable coin exchanging. USDA Users can set parameters in this system, such as anchor target, pledge rate, level line, and digital asset target. After the necessary parameters are set, AnchorDAO-system will deploy a series of s-contracts and establish a control model. The AnchorDAO-System is developed through s-contracts. It was early deployed on public chains (EOS / ETH / TRX) which support s-contracts. For the future, BTC will be supported with ChainX's Xross-Chain technology to integrate the Xross-chain assets into a Ecosystem and build Xross-chain Open financial ecology.
